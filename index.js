@@ -73,7 +73,7 @@ const corsOptions = {
         next();
       };
   
-      //create user - registration
+      //create user - registration //
       app.post("/users", async (req, res) => {
         const userInfo = req.body;
         const { pin } = userInfo;
