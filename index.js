@@ -37,8 +37,8 @@ const corsOptions = {
     });
   };
 
-  console.log(process.env.DB_USER)
-  console.log(process.env.DB_PASS)
+  // console.log(process.env.DB_USER)
+  // console.log(process.env.DB_PASS)
 
   const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.cgv1zq7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
   
